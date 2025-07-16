@@ -15,4 +15,4 @@ def date(request):
     return HttpResponse("This page was served at" + str(datetime.now()))
 
 def about(request):
-    return  HttpResponse("I'm reindert and I make courses for Pluralsight.")
+    return  HttpResponse("I'm reindert and I make courses for Pluralsight my name is keerthan.")
