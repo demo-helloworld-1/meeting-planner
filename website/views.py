@@ -3,7 +3,7 @@ from datetime import datetime
 from django.shortcuts import render
 from django.http import HttpResponse
 
-from meeting_planner.meetings.models import Meeting
+from meetings.models import Meeting
 
 
 def welcome(request):
